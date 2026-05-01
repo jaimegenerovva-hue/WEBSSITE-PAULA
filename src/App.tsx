@@ -164,7 +164,7 @@ export default function App() {
         <section className="w-full bg-[#111111] py-[100px]">
           <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-start gap-16">
             <article className="lg:w-2/3">
-              <div id="que-es-un-cms" className="bg-[#1A1A1A] p-10 rounded-xl border border-[#C9A84C]/30 shadow-2xl">
+              <div id="que-es-un-cms" className="bg-[#1A1A1A] p-6 md:p-10 rounded-xl border border-[#C9A84C]/30 shadow-2xl">
                 <h2 className="text-3xl font-black text-[#C9A84C] mb-8 tracking-tight flex items-center gap-4">
                   <span className="w-1.5 h-8 bg-[#C9A84C] rounded-full" />
                   ¿Qué es un CMS?
@@ -190,12 +190,12 @@ export default function App() {
 
                 <motion.div 
                   whileHover={{ scale: 1.01 }}
-                  className="mt-12 rounded-xl overflow-hidden border border-[#C9A84C]/20 shadow-2xl"
+                  className="mt-8 md:mt-12 rounded-xl overflow-hidden border border-[#C9A84C]/20 shadow-2xl cms-image-container"
                 >
                   <img 
-                    src="https://i.ibb.co/9QXpQFK/Que-es-un-CMS-png.webp" 
-                    alt="Interfaz visual de un sistema de gestión de contenidos CMS"
-                    className="w-full max-h-[320px] object-cover object-center opacity-90"
+                    src="https://i.ibb.co/jvnVd9nq/cms-t.jpg" 
+                    alt="Representación visual de los principales sistemas de gestión de contenidos: WordPress, Drupal y Joomla"
+                    className="w-full max-h-[320px] object-cover object-center cms-main-image"
                     referrerPolicy="no-referrer"
                   />
                 </motion.div>

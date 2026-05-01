@@ -62,3 +62,24 @@
     border-radius: 2px;
   }
 }
+
+@media (max-width: 768px) {
+  .cms-image-container {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 4px !important;
+    margin-bottom: 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .cms-main-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+    border-radius: 16px !important;
+    margin: 0 !important;
+    border: none !important;
+  }
+}
